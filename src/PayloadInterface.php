@@ -40,6 +40,21 @@ interface PayloadInterface
     public function getStatus();
 
     /**
+     * Create a copy of the payload with input array.
+     *
+     * @param array $input
+     * @return PayloadInterface
+     */
+    public function withInput(array $input);
+
+    /**
+     * Get input array from the payload.
+     *
+     * @return array
+     */
+    public function getInput();
+
+    /**
      * Create a copy of the payload with output array.
      *
      * @param array $output
