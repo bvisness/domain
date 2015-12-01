@@ -8,8 +8,8 @@ interface PayloadInterface
      * @var integer All good.
      */
     const OK = 10;
-    /**
 
+    /**
      * @var integer Error during domain processing.
      */
     const ERROR = 20;
